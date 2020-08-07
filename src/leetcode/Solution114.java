@@ -1,7 +1,6 @@
 package leetcode;
 
 import org.junit.Test;
-import org.testng.annotations.AfterTest;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
