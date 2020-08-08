@@ -58,7 +58,6 @@ public class Main {
         int right = index1R;
         if (left == right) {
             System.out.println("YES");
-            return;
         } else {
             int len = arr1[left] - arr2[left];
             for (int i = left + 1; i <= right; i++) {
@@ -68,7 +67,6 @@ public class Main {
                 }
             }
             System.out.println("YES");
-            return;
         }
     }
 }
